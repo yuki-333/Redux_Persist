@@ -32,9 +32,6 @@ class App extends React.Component {
                 this.props.minus(100);
                 }}
             />
-        {/* <View>
-            <Text>{this.props.number}</Text>
-        </View> */}
         </View>
       );
     }

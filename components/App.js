@@ -18,7 +18,7 @@ class App extends React.Component {
       return (
         <View style={styles.container}>
         <Text style={styles.text}>
-            App {this.props.title} {this.props.day} {this.props.number}
+            CURLY {this.props.title} {this.props.day} {this.props.number}
         </Text>
             <Button
                 title="+"

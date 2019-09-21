@@ -8,3 +8,10 @@ export const plus = num => {
 export const minus = num => {
     return {type: "MINUS", payload: {num: num} };
 };
+
+export function addTodo(todo) {
+    return {
+        type: 'ADD_TO_DO',
+        todo
+    }
+}
